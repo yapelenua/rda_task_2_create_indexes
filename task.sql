@@ -2,6 +2,10 @@
 USE ShopDB; 
 
 
-CREATE INDEX idx_email ON Customers (Email); 
+CREATE INDEX Email ON Customers (Email); 
 
-CREATE INDEX idx_name ON Products (Name); 
+CREATE INDEX Name ON Products (Name); 
+
+CREATE INDEX CustomerID ON Orders (CustomerID); 
+CREATE INDEX OrderID ON OrderItems (OrderID); 
+CREATE INDEX ProductID ON OrderItems (ProductID);
