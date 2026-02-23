@@ -1,4 +1,6 @@
 # Write your SQL code for the database creation here. Good luck! 
+
+CREATE DATABASE IF NOT EXISTS ShopDB;
 USE ShopDB; 
 
 
